@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css2?family=El+Messiri:wght@700&family=Inter:wght@400;600;800&family=Nunito+Sans:opsz@6..12&family=Poppins:wght@400;600;700&display=swap');
+
+body {
+    background: #151515;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+}
+
+.content {
+    /* width: 800px; */
+    display: flex;
+    justify-content: center;
+}
+
+.content img {
+    width: 600px;
+    margin-right: 200px;
+}
+
+.content_block {
+    width: 800px;
+}
+
+.content h1 {
+    color: #F6F6F6;
+    font-family: Inter;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 119%;
+    /* 95.2px */
+    text-transform: capitalize;
+}
+
+.content p {
+    color: #969696;
+    font-family: Lato;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 180%;
+    /* 39.6px */
+    letter-spacing: 0.44px;
+}
+
+.content button {
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+    background: linear-gradient(90deg, #3FE8AB 0%, #78CDCD 100%);
+    color: #111;
+    font-family: Lato;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+}
+
+.content_partners {
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.content_crypto {}
+
+.content_crypto_title {
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+    color: #F6F6F6;
+    text-align: center;
+    font-family: Inter;
+    font-size: 58px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.crypto_container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.crypto_block {
+    border-radius: 60px;
+    border: 4px solid #383F3E;
+    background: #151515;
+
+    padding: 100px 107px;
+}
+
+.crypto_block h1 {
+    color: #F6F6F6;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 500;
+    padding: 0;
+}
+
+.crypto_block p {
+    text-align: center;
+    font-family: Lato;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: capitalize;
+
+    background: linear-gradient(90deg, #3FE8AB 0%, #78CDCD 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.crypto_block button {
+    display: flex;
+    padding: 22px 54px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background: linear-gradient(90deg, #3FE8AB 0%, #78CDCD 100%);
+
+    color: #111;
+    font-family: Lato;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+}
+
+.content_banner_1 {
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.content_banner_1 img {
+    width: 100%;
+}
+
+.content_banner_block {
+    width: 600px;
+    margin-left: 300px;
+    text-align: center;
+    align-self: center;
+    /* align-items: center; */
+}
+
+.content_banner_1 h1 {
+    color: white;
+    font-family: Inter;
+    font-size: 58px;
+    font-weight: 700;
+}
+
+.content_banner_1 p {
+    color: #969696;
+    font-family: Lato;
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.content_banner_1 button {
+    padding: 22px 54px;
+
+    border-radius: 10px;
+    background: linear-gradient(90deg, #3FE8AB 0%, #78CDCD 100%);
+    align-items: center;
+}
+
+.content_banner_2 {
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+
+}
+.content_banner_2 img {
+    width: 100%;
+}
+
+.content_banner_block_2 {
+    width: 600px;
+    margin-right: 300px;
+    text-align: center;
+    align-self: center;
+    /* align-items: center; */
+}
+
+.content_banner_2 h1 {
+    color: white;
+    font-family: Inter;
+    font-size: 58px;
+    font-weight: 700;
+}
+
+.content_banner_2 p {
+    color: #969696;
+    font-family: Lato;
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.content_banner_2 button {
+    padding: 22px 54px;
+
+    border-radius: 10px;
+    background: linear-gradient(90deg, #3FE8AB 0%, #78CDCD 100%);
+    align-items: center;
+}
+
+
+.footer_contact{
+    margin-top: 200px;
+    /* width: 1100px; */
+    display: flex;
+    justify-content: center ;
+    /* justify-content: center; */
+    text-align: center;
+}
+
+.footer_contact h1{
+    color: #F6F6F6;
+
+font-family: Inter;
+font-size: 58px;
+
+font-weight: 700;
+}
+.footer_contact p{
+    width: 1100px;
+    color: #969696;
+
+text-align: center;
+font-family: Lato;
+font-size: 22px;
+font-weight: 400;
+}
+
+.footer_contact input{
+    width: 820px;
+height: 89px;
+flex-shrink: 0;
+fill: #151515;
+stroke-width: 4px;
+stroke: #383F3E;
+}
+.footer{
+    margin-top: 100px;
+}
+.footer h1{
+    font-family: Inter;
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.footer_social_container{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.footer_logo{
+    margin-top: 75px;
+    display: flex;
+    justify-content: center;
+}
